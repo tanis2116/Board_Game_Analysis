@@ -24,6 +24,6 @@ Board Game Analysis: Board Game Geek, Adam Bartoszek and Judd Jacobs
 | bggrecagerange | object | Recommended age range from BoardGameGeek's dataset |
 | DisplayMapping | object | Created to assist in mapping age range for better display |
 | AggregateMapping | object | Mapping various age ranges to larger buckets for easier aggregation |
-| Judd | int64 | A flag created is Judd owns the game |
-| Adam | int64 | A flag created is Adam owns the game |
-| BGG | int64 | A flag created is BGG owns the game (set to 1 since BGG data is considered all known games) |
+| Judd | int64 | A flag created if Judd owns the game |
+| Adam | int64 | A flag created if Adam owns the game |
+| BGG | int64 | A flag created if BGG owns the game (set to 1 since BGG data is considered all known games) |
