@@ -11,39 +11,19 @@ Board Game Analysis: Board Game Geek, Adam Bartoszek and Judd Jacobs
 | Play Time | int64 | Expected play time |
 | Min Age | int64 | Minimum recommended age to play the game |
 | Domains | object | List of gameplay types - can include more than one |
-| objectname_jj | object | [Add description] |
-| objectid_jj | float64 | [Add description] |
-| own_jj | float64 | [Add description] |
-| minplayers_jj | float64 | [Add description] |
-| maxplayers_jj | float64 | [Add description] |
-| playingtime_jj | float64 | [Add description] |
-| maxplaytime_jj | float64 | [Add description] |
-| minplaytime_jj | float64 | [Add description] |
-| yearpublished_jj | float64 | [Add description] |
-| bggrecplayers_jj | object | [Add description] |
-| bggrecagerange_jj | object | [Add description] |
-| year_jj | float64 | [Add description] |
-| itemtype_jj | object | [Add description] |
-| objectname_ab | object | [Add description] |
-| objectid_ab | float64 | [Add description] |
-| own_ab | float64 | [Add description] |
-| minplayers_ab | float64 | [Add description] |
-| maxplayers_ab | float64 | [Add description] |
-| playingtime_ab | float64 | [Add description] |
-| maxplaytime_ab | float64 | [Add description] |
-| minplaytime_ab | float64 | [Add description] |
-| yearpublished_ab | float64 | [Add description] |
-| bggrecplayers_ab | object | [Add description] |
-| bggrecagerange_ab | object | [Add description] |
-| year_ab | float64 | [Add description] |
-| itemtype_ab | object | [Add description] |
-| objectid_comb | float64 | [Add description] |
-| bggrecagerange_comb | object | [Add description] |
-| age_comb | object | [Add description] |
-| bggrecagerange | object | [Add description] |
-| DisplayMapping | object | [Add description] |
-| SortMapping | int64 | [Add description] |
-| AggregateMapping | object | [Add description] |
-| Judd | int64 | [Add description] |
-| Adam | int64 | [Add description] |
-| BGG | int64 | [Add description] |
+| objectid_jj | float64 | the ID from BGG for items specifically in Judd's collection |
+| own_jj | float64 | A flag to represent if Judd own's the item |
+| bggrecagerange_jj | object | Recommended Age range from BoardGameGeek from Judd's library |
+| itemtype_jj | object | Description of if the game is a standalone or expansion of an existing game for Judd's library |
+| objectid_ab | float64 | the ID from BGG for items specifically in Adam's collection  |
+| own_ab | float64 | A flag to represent if Adam own's the item  |
+| bggrecagerange_ab | object | Recommended Age range from BoardGameGeek from Adam's library |
+| itemtype_ab | object | Description of if the game is a standalone or expansion of an existing game for Adam's library |
+| objectid_comb | float64 | Combined objectid from both Adam and Judd's datasets |
+| bggrecagerange_comb | object | Combined bggrecagerange from all three datasets |
+| bggrecagerange | object | Recommended age range from BoardGameGeek's dataset |
+| DisplayMapping | object | Created to assist in mapping age range for better display |
+| AggregateMapping | object | Mapping various age ranges to larger buckets for easier aggregation |
+| Judd | int64 | A flag created is Judd owns the game |
+| Adam | int64 | A flag created is Adam owns the game |
+| BGG | int64 | A flag created is BGG owns the game (set to 1 since BGG data is considered all known games) |

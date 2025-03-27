@@ -49,8 +49,9 @@ Within the Jupyter notebook, I accomplish the following steps:
 To run this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Explore the Jupyter notebooks or scripts in the respective folders.
+2. Create a virtual environment
+3. Install the necessary dependencies: `pip install -r requirements.txt`
+4. Explore the Jupyter notebooks or scripts in the respective folders
 
 ## Dependencies
 
