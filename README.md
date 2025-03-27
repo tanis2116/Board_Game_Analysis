@@ -17,8 +17,9 @@ All the datasets are provided within this project as .csv files.  All were obtai
 - A mapping document created to aid in analysis and visualization of age range suggestions (AgeRangeMapping.xlsx)
 
 ### Structure
+
 Within the Jupyter notebook, I accomplish the following steps:
----
+
 - **Project Description:** Explain the intention of the project and the datasets.
 
 - **Module imports, data paths, data frame creation** Complete various package imports, specify file locations and create beginning data frames
