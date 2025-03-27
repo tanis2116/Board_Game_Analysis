@@ -60,7 +60,7 @@ Pandas
 Jupyter Notebooks
 Matplotlib
 
-AI (ChatGPT) was consulted for explanations on why certain parts of code worked and to troubleshoot errors.
+AI (ChatGPT) was consulted for explanations on why certain parts of code worked, troubleshoot errors and providing data labels within some graphs.
 
 
 
