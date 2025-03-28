@@ -55,12 +55,11 @@ To run this project, follow these steps:
 
 ## Dependencies
 
-Python
-Pandas
-Jupyter Notebooks
-Matplotlib
-
-AI (ChatGPT) was consulted for explanations on why certain parts of code worked, troubleshoot errors and providing data labels within some graphs.
+- Python
+- Pandas
+- Jupyter Notebooks
+- Matplotlib
+- AI (ChatGPT) was consulted for explanations on why certain parts of code worked, troubleshoot errors and providing data labels within some graphs.
 
 
 
